@@ -6,10 +6,7 @@
 
 如果你想找适用于 [MPC-HC](https://github.com/clsid2/mpc-hc) 的网页控制器，请转到 [MPC-HC 网页控制器](https://github.com/little-Data/mpc-hc-web-controller)
 
-<details>
- <summary>点击查看截图</summary>
- ![](img/01.png)
-</details>
+ <img src="img/01.png" />
 
 测试时的版本：1.8.9
 
@@ -26,15 +23,15 @@
 
 # 使用
 
-从 [Releases](https://github.com/little-Data/mpc-be-web-controller/releases) 中下载`mpc-be-web-controller.7z`文件，解压全部文件至一个文件夹中
+从 [Releases](https://github.com/little-Data/mpc-be-web-controller/releases) 中下载`mpc-be-web-controller.7z`文件，解压全部文件至一个文件夹中。
 
 打开MPC-BE，点击查看>选项>Web 接口
 
-打开监听端口，启用预览（如果想在页面内显示画面的话），服务页面来自
+打开监听端口，启用预览（如果想在页面内显示画面的话），服务页面来自。
 
-复制刚才解压文件到那个文件夹的路径，粘贴到服务页面来自下的输入框中
+复制刚才解压文件到那个文件夹的路径，粘贴到服务页面来自下的输入框中。
 
-点击“应用”，点在网页浏览器中打开即可看到页面
+点击“应用”，点在网页浏览器中打开即可看到页面。
 
 # 功能详解
 
@@ -52,7 +49,7 @@
 
 ## 播放状态
 
-播放状态默认实时更新，可通过进度条调节进度
+播放状态默认实时更新，可通过进度条调节进度。
 
 ## 片头片尾跳过规则
 
@@ -62,23 +59,31 @@
 
 生效后即从片头结束时间开始播放，到片尾开始时间即播放下一个文件。
 
-规则按文件夹分类，设置好文件夹的规则后对同文件夹下所有可播放文件有效
+规则按文件夹分类，设置好文件夹的规则后对同文件夹下所有可播放文件有效。
 
-如果想在所有情况下生效，请将文件夹路径留空
+如果想在所有情况下生效，请将文件夹路径留空。
+
+# License
+
+MIT
+
+尊重成果，请注意表明来源和署名，不允许将署名抹掉后重新发布！
+
+Respect the results, please be careful to indicate the source and attribution, and republishing after erasing the attribution is not allowed! 
 
 # 开发文档
 
-能够实现这么多的功能，离不开下面的文件
+能够实现这么多的功能，离不开下面的文件：
 
 https://github.com/Aleksoid1978/MPC-BE/blob/master/src/apps/mplayerc/resource.h
 
-程序源代码中定义的命令ID，有些是无效的
+程序源代码中定义的命令ID，有些是无效的。
 
 只选了`#define ID_`开头的数值当作命令ID
 
-MPC-BE内置的HTML页面
+`MPC-BE内置的HTML页面`
 
-所有可用的命令或方法均来自于此
+所有可用的命令或方法均来自于此：
 
 `/controls.html`中的Goto control提供了时间点跳转方法：`wm_command=-1&position=00:05:48`POST表单到`/command.html`
 
@@ -88,13 +93,13 @@ MPC-BE内置的HTML页面
 
 https://github.com/Aleksoid1978/MPC-BE/blob/master/src/apps/mplayerc/WebClient.cpp
 
-`bool CWebClientSocket::OnStatus(CStringA& hdr, CStringA& body, CStringA& mime)`部分知道各部分的作用
+`bool CWebClientSocket::OnStatus(CStringA& hdr, CStringA& body, CStringA& mime)`部分知道各部分的作用：
 
 `OnStatus('title', 'status', pos, 'posstr', dur, 'durstr', IsMuted(), GetVolume(), 'file')`
 
 `'title'`：`title = m_pMainFrame->GetWindowTextW(title)`，即MPC-BE 播放器的窗口标题。
 
-`'status'`：当前播放器的播放状态。代码中通过`OAFilterState fs`判断状态，此处`fs = State_Stopped`，对应`ResStr(IDS_CONTROLS_STOPPED)`（资源文件中定义的中文 **“已停止”**）。
+`'status'`：当前播放器的播放状态。代码中通过`OAFilterState fs`判断状态，此处`fs = State_Stopped`，对应`ResStr(IDS_CONTROLS_STOPPED)`（资源文件中定义的中文 **“已停止”**）
 
 `pos`：当前播放位置的毫秒值。`pos = (int)(m_pMainFrame->GetPos()/10000)`
 
@@ -106,7 +111,7 @@ https://github.com/Aleksoid1978/MPC-BE/blob/master/src/apps/mplayerc/WebClient.c
 
 `IsMuted()`：整数 0 表示未静音，1 表示已静音。`m_pMainFrame->IsMuted()`
 
-`GetVolume()`：播放器的音量值。`m_pMainFrame->GetVolume()`该值为百分比制，0 为静音，100 为最大音量
+`GetVolume()`：播放器的音量值。`m_pMainFrame->GetVolume()`该值为百分比制，0 为静音，100 为最大音量。
 
 `'file'`：播放的文件的实际存储路径。`file = m_pMainFrame->m_wndPlaylistBar.GetCurFileName()`
 
@@ -116,20 +121,16 @@ https://github.com/Aleksoid1978/MPC-BE/blob/master/src/apps/mplayerc/WebClient.c
 
 这些文件不包含在Releases的压缩文件中，自行从仓库获取。
 
-不保证能不能用，点击自定义命令的导入JSON来添加。
+不保证能用，点击自定义命令的导入JSON来添加。
 
 `mpc-be-cmds.json`：从内置页面的`/index.html`中提取，去除了已经在页面中的命令。
 
 `mpc-be-cmds-define.json`：从`resource.h`中提取`#define ID_`开头的数值当作命令，去除了已经在页面中，`mpc-be-cmds.json`中的命令。名称是直接翻译的。
 
-`mpc-be-langset.json`：MPC-BE软件界面语言
+`mpc-be-langset.json`：MPC-BE软件界面语言。
 
 以下文件为后续更新使用：
 
-`mpc-be-define-ID_.txt`：当前版本所使用的`#define ID_`开头的数值
+`mpc-be-define-ID_.txt`：当前版本所使用的`#define ID_`开头的数值。
 
-`tools文件夹`：辅助工具，只在开发时使用，平常用不到
-
-# License
-
-MIT
+`tools文件夹`：辅助工具，只在开发时使用，平常用不到。
