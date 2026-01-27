@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Arabic",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5001"
+  },
+  {
+    "name": "Armenian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5002"
+  },
+  {
+    "name": "Basque",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5003"
+  },
+  {
+    "name": "Belarusian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5004"
+  },
+  {
+    "name": "Bulgarian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5005"
+  },
+  {
+    "name": "Catalan",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5006"
+  },
+  {
+    "name": "Chinese (Simplified)",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5007"
+  },
+  {
+    "name": "Chinese (Traditional)",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5008"
+  },
+  {
+    "name": "Croatian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5009"
+  },
+  {
+    "name": "Czech",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5010"
+  },
+  {
+    "name": "Dutch",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5011"
+  },
+  {
+    "name": "English",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5012"
+  },
+  {
+    "name": "French",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5013"
+  },
+  {
+    "name": "German",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5014"
+  },
+  {
+    "name": "Greek",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5015"
+  },
+  {
+    "name": "Hebrew",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5016"
+  },
+  {
+    "name": "Hungarian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5017"
+  },
+  {
+    "name": "Italian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5018"
+  },
+  {
+    "name": "Japanese",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5019"
+  },
+  {
+    "name": "Korean",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5020"
+  },
+  {
+    "name": "Polish",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5021"
+  },
+  {
+    "name": "Portuguese (Brazil)",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5022"
+  },
+  {
+    "name": "Romanian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5023"
+  },
+  {
+    "name": "Russian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5024"
+  },
+  {
+    "name": "Slovak",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5025"
+  },
+  {
+    "name": "Slovenian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5026"
+  },
+  {
+    "name": "Swedish",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5027"
+  },
+  {
+    "name": "Spanish",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5028"
+  },
+  {
+    "name": "Turkish",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5029"
+  },
+  {
+    "name": "Ukrainian",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "5030"
+  }
+]

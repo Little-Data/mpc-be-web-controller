@@ -1,0 +1,345 @@
+[
+  {
+    "name": "宽高比 2.35:1",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "854"
+  },
+  {
+    "name": "宽高比 1.85:1",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "855"
+  },
+  {
+    "name": "播放后执行一次",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1029"
+  },
+  {
+    "name": "播放后每次都执行",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1030"
+  },
+  {
+    "name": "导航字幕",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1033"
+  },
+  {
+    "name": "导航音频",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1034"
+  },
+  {
+    "name": "加载音频文件",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1035"
+  },
+  {
+    "name": "EVR输出范围 0-255",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1044"
+  },
+  {
+    "name": "EVR输出范围 16-235",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1045"
+  },
+  {
+    "name": "独占全屏",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1046"
+  },
+  {
+    "name": "重置为默认",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1075"
+  },
+  {
+    "name": "播放后关闭文件",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1078"
+  },
+  {
+    "name": "播放后下一文件循环",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1079"
+  },
+  {
+    "name": "播放后关闭文件并最小化",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1080"
+  },
+  {
+    "name": "播放后每次都无操作",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1081"
+  },
+  {
+    "name": "3D立体自动",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1110"
+  },
+  {
+    "name": "3D立体单声道",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1111"
+  },
+  {
+    "name": "3D立体行交错",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1112"
+  },
+  {
+    "name": "3D立体行交错2倍",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1113"
+  },
+  {
+    "name": "3D立体半高上下",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1114"
+  },
+  {
+    "name": "3D立体上下",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1115"
+  },
+  {
+    "name": "3D立体左右交换",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1120"
+  },
+  {
+    "name": "音频选项",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1160"
+  },
+  {
+    "name": "字幕选项",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1170"
+  },
+  {
+    "name": "字幕启用",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1171"
+  },
+  {
+    "name": "字幕样式",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1172"
+  },
+  {
+    "name": "字幕默认样式",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1175"
+  },
+  {
+    "name": "仅强制字幕",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1176"
+  },
+  {
+    "name": "立体字幕禁用",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1177"
+  },
+  {
+    "name": "立体字幕并排",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1178"
+  },
+  {
+    "name": "立体字幕上下",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1179"
+  },
+  {
+    "name": "显示毫秒",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1200"
+  },
+  {
+    "name": "打开光盘子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1900"
+  },
+  {
+    "name": "最近文件子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1901"
+  },
+  {
+    "name": "语言子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1902"
+  },
+  {
+    "name": "视频帧子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1903"
+  },
+  {
+    "name": "平移扫描子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1904"
+  },
+  {
+    "name": "滤镜子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1905"
+  },
+  {
+    "name": "着色器子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1906"
+  },
+  {
+    "name": "音频语言子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1907"
+  },
+  {
+    "name": "字幕语言子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1908"
+  },
+  {
+    "name": "视频流子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1909"
+  },
+  {
+    "name": "播放后子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1910"
+  },
+  {
+    "name": "导航子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1911"
+  },
+  {
+    "name": "导航主菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1912"
+  },
+  {
+    "name": "跳转到子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1913"
+  },
+  {
+    "name": "收藏子菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1914"
+  },
+  {
+    "name": "收藏主菜单",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1915"
+  },
+  {
+    "name": "复制滤镜到剪贴板",
+    "method": "POST",
+    "api": "/command.html",
+    "params": "",
+    "id": "1999"
+  }
+]
