@@ -53,6 +53,7 @@ class PlainCorsProxy(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     server = HTTPServer(('0.0.0.0', PORT), PlainCorsProxy)
     print(f'MPC-BE CORS 代理已启动')
+    print(f'端口为', PORT)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
