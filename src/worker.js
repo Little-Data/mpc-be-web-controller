@@ -10,17 +10,17 @@ const state = {
 // 日志输出封装
 const debug = {
     log: function(...args) {
-        if (COVER_CONFIG.enableConsole) {
+        if (state.enableConsole) {
             console.log(...args);
         }
     },
     warn: function(...args) {
-        if (COVER_CONFIG.enableConsole) {
+        if (state.enableConsole) {
             console.warn(...args);
         }
     },
     error: function(...args) {
-        if (COVER_CONFIG.enableConsole) {
+        if (state.enableConsole) {
             console.error(...args);
         }
     }
@@ -43,7 +43,7 @@ function decodeUtf8(str) {
         // 方法1：如果输入是 URL 编码的 UTF-8（标准情况）
         return decodeURIComponent(str);
     } catch (e) {
-        // 方法2：处理 GBK 编码的中文（MPC-BE 历史遗留）
+        // 方法2：处理 GBK 编码的中文
         try {
             // 将字符串转为字节数组，再用 GBK 解码
             const bytes = new Uint8Array(str.split('').map(c => c.charCodeAt(0) & 0xFF));
